@@ -1,6 +1,6 @@
 package lesson_1
 
 fun main() {
-    val numberOfOrders = 75
-    val thanksText = "Thanks for purchase"
+    val numberOfOrders: Int = 75
+    val thanksText: String = "Thanks for purchase"
 }
