@@ -17,14 +17,14 @@ fun main() {
 
     val permanentEmployees = 50
     val salaryOfPermanentEmployee = 30_000
-    var trainees = 30
-    var salaryOfTrainee = 20_000
-    var totalEmployees = permanentEmployees + trainees
+    val trainees = 30
+    val salaryOfTrainee = 20_000
+    val totalEmployees = permanentEmployees + trainees
 
-    var totalSalaryOfTrainnes = trainees * salaryOfTrainee
+    val totalSalaryOfTrainnes = trainees * salaryOfTrainee
     val totalSalaryPermanentEmployees = permanentEmployees * salaryOfPermanentEmployee
-    var totalSalaryInCompany = totalSalaryPermanentEmployees + totalSalaryOfTrainnes
-    var averageSalary = totalSalaryInCompany / 80
+    val totalSalaryInCompany = totalSalaryPermanentEmployees + totalSalaryOfTrainnes
+    val averageSalary = totalSalaryInCompany / 80
 
     println("Общее количество сотрудников компании на текущий момент: $totalEmployees")
     println("Расходы на зарплату постоянным сотрудникам компании: $totalSalaryPermanentEmployees")
