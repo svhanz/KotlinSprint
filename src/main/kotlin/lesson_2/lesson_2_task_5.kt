@@ -22,11 +22,11 @@ fun main() {
     % – процентная ставка, процентов годовых /100;
     n – количество периодов, лет (месяцев, кварталов).
      */
-    val manyDeposit = 70_000L // X
+    val moneyDeposit = 70_000L // X
     val annualInterestRate = 16.7 // %
     val interestPeriodDays = 20 // n
 
-    val depositAmount = manyDeposit * (1 + annualInterestRate / 100).pow(interestPeriodDays)
+    val depositAmount = moneyDeposit * (1 + annualInterestRate / 100).pow(interestPeriodDays)
     val depositAmountFormatted = String.format("%.3f", depositAmount)
     println(depositAmountFormatted)
 }
