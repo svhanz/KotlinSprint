@@ -14,23 +14,16 @@ fun main() {
     стоящей на D2 и продвинувшейся на одну клетку вперед.
      */
 
-    var startPositionFigure1 = "E2"
-    var newPositionFigure1 = "E4"
+    var startPosition = "E2"
+    var newPosition = "E4"
     var numberMove = 1
 
-    var dateServerFigure1 = "[$startPositionFigure1-$newPositionFigure1];$numberMove"
-    println(dateServerFigure1)
+    var dataServer = "[$startPosition-$newPosition;$numberMove]"
+    println(dataServer)
 
-    startPositionFigure1 = "E4"
-    newPositionFigure1 = "Е5"
+    startPosition = "D2"
+    newPosition = "D3"
     ++numberMove
-    dateServerFigure1 = "[$startPositionFigure1-$newPositionFigure1];$numberMove"
-
-    println(dateServerFigure1)
-
-    var startPositionFigure2 = "D2"
-    var newPositionFigure2 = "D3"
-    ++numberMove
-    var dataServerFigure2 = "[$startPositionFigure2-$newPositionFigure2];$numberMove"
-    println(dataServerFigure2)
+    dataServer = "[$startPosition-$newPosition;$numberMove]"
+    println(dataServer)
 }
