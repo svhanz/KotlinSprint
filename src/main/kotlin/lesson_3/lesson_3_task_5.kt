@@ -10,7 +10,16 @@ fun main() {
     присвоить соответствующим переменным и распечатать по отдельности.
      */
     val dataServer = "D2-D4;0"
-    println(arrayOf(dataServer))
+    val delSeparator1 = "-"
+    val delSeparator2 = ";"
+    val dataServerStr= dataServer.split(delSeparator1, delSeparator2).toList()
+    val startPosition: String = dataServerStr[0]
+    val newPosition: String = dataServerStr[1]
+    val numberMove: Int = dataServerStr[2].toInt()
+    println("Начальная позиция фигуры: $startPosition")
+    println("Новая позиция фигуры: $newPosition")
+    println("Номер хода: $numberMove")
 }
+
 
 
