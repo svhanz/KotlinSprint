@@ -12,10 +12,10 @@ fun main() {
     val dataServer = "D2-D4;0"
     val delSeparator1 = "-"
     val delSeparator2 = ";"
-    val dataServerStr= dataServer.split(delSeparator1, delSeparator2).toList()
-    val startPosition: String = dataServerStr[0]
-    val newPosition: String = dataServerStr[1]
-    val numberMove: Int = dataServerStr[2].toInt()
+    val dataServerStr= dataServer.split(delSeparator1, delSeparator2)
+    val startPosition = dataServerStr[0]
+    val newPosition = dataServerStr[1]
+    val numberMove= dataServerStr[2]
     println("Начальная позиция фигуры: $startPosition")
     println("Новая позиция фигуры: $newPosition")
     println("Номер хода: $numberMove")
