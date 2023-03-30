@@ -26,10 +26,7 @@ fun main() {
     val compareResult = currentWeather == WEATHER_CONDITION
             && awningStatus == AWNING_CONDITION
             && currentHumidity == HUMIDITY_CONDITION
-            && currentSeason == SEASON_CONDITION1
-            || currentSeason == SEASON_CONDITION2
-            ||currentSeason == SEASON_CONDITION3
-
+            && currentSeason != SEASON_CONDITION
 
     println("Благоприятные ли условия сейчас для роста бобовых? $compareResult")
 }
@@ -37,6 +34,4 @@ fun main() {
     const val WEATHER_CONDITION = "sunny"
     const val AWNING_CONDITION = "open"
     const val HUMIDITY_CONDITION = 20
-    const val SEASON_CONDITION1 = "spring"
-    const val SEASON_CONDITION2 = "summer"
-    const val SEASON_CONDITION3 = "autumn"
+    const val SEASON_CONDITION = "winter"
