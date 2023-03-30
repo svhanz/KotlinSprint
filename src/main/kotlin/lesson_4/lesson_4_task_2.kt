@@ -1,3 +1,4 @@
+
 package lesson_4
 
 fun main() {
@@ -13,6 +14,14 @@ fun main() {
     – определить подходят ли под категорию Average грузы со следующими параметрами: 20кг / 80л и 50кг / 100л;
     – выполнять сравнение сразу внутри println() и без использования диапазонов.
      */
+    val cargoWeight1 = 20
+    val cargoVol1 = 80
+
+    val cargoWeight2 = 50
+    val cargoVol2 = 100
+
+    println("Average для груза с весом $cargoWeight1 кг и объемом $cargoVol1 л: ${(WEIGHT_MIN <= cargoVol1 && cargoWeight1 <= WEIGHT_MAX) && (cargoVol1 < VOL_MAX)}")
+    println("Average для груза с весом $cargoWeight2 кг и объемом $cargoVol2 л: ${(WEIGHT_MIN <= cargoVol2 && cargoWeight2 <= WEIGHT_MAX) && (cargoVol2 < VOL_MAX)}")
 
 }
 
