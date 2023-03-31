@@ -18,7 +18,7 @@ fun main() {
     – Все сообщение должно печататься в одном println();
     – При изменении значения переменной дня тренировки на 1 день вперед, вывод должен меняться.
      */
-    val dayNumber = 7
+    val dayNumber = 5
     val compareDay = dayNumber % 2 == 0
 
     val handsExercises: Boolean = !compareDay
