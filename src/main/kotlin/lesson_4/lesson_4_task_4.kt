@@ -18,7 +18,7 @@ fun main() {
     – Все сообщение должно печататься в одном println();
     – При изменении значения переменной дня тренировки на 1 день вперед, вывод должен меняться.
      */
-    val dayNumber = 6
+    val dayNumber = 5
     val compareDay = dayNumber % 2
 
     val handsExercises = 1
@@ -27,8 +27,8 @@ fun main() {
     val absExercises = 1
 
     println("День тренировки: $dayNumber") // моя отсебятина для понимания какой день трени
-    println("Упражнения для рук: ${dayNumber == handsExercises || handsExercises == compareDay}")
-    println("Упражнения для ног: ${dayNumber == legExercises || legExercises == compareDay + 2}")
-    println("Упражнения для спины: ${dayNumber == backExercises || backExercises == compareDay +2}")
-    println("Упражнения для пресса: ${dayNumber == absExercises || absExercises == compareDay}")
+    println("Упражнения для рук: ${handsExercises == compareDay}")
+    println("Упражнения для ног: ${legExercises == compareDay + 2}")
+    println("Упражнения для спины: ${backExercises == compareDay +2}")
+    println("Упражнения для пресса: ${absExercises == compareDay}")
 }
