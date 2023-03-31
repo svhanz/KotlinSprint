@@ -19,7 +19,7 @@ fun main() {
      */
     // current conditions
     val currentWeather = "sunny"
-    val awningStatus = "open"
+    val awningStatus = true
     val currentHumidity = 20
     val currentSeason = "winter"
 
@@ -32,6 +32,6 @@ fun main() {
 }
 
     const val WEATHER_CONDITION = "sunny"
-    const val AWNING_CONDITION = "open"
+    const val AWNING_CONDITION = true
     const val HUMIDITY_CONDITION = 20
     const val SEASON_CONDITION = "winter"
