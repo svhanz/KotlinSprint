@@ -26,6 +26,9 @@ fun main() {
     val backExercises: Boolean = compareDay
     val absExercises: Boolean = !compareDay
 
-    println("День тренировки: $dayNumber") // моя отсебятина для понимания какой день трени
-    println("Упражнения для рук: $handsExercises\nУпражнения для ног: $legExercises\nУпражнения для спины: $backExercises\nУпражнения для пресса: $absExercises")
+    println("День тренировки: $dayNumber") // моя отсебятина для понимания какой день тренировки
+    println("Упражнения для рук:    $handsExercises\n" +
+            "Упражнения для ног:    $legExercises\n" +
+            "Упражнения для спины:  $backExercises\n" +
+            "Упражнения для пресса: $absExercises")
 }
